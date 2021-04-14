@@ -1,0 +1,78 @@
+body {
+  margin: 0px;
+  width: auto;
+}
+
+.div1 {
+  background-color: #1f2535;
+  height: 800px;
+  color: white;
+  width: 70%;
+  margin-left: 15%;
+  padding-right: 40px;
+  padding-top: 5%;
+  margin-top: -5%;
+}
+
+.div1 h1 {
+  font-size: 80px;
+}
+
+.div1 p {
+  font-size: 25px;
+}
+
+.div1 h1,
+.div1 button {
+  margin-right: 50%;
+  margin-left: 5%;
+  padding-top: 40px;
+}
+.div1 p {
+  margin-right: 60%;
+  margin-left: 5%;
+  padding-top: 40px;
+}
+
+.div1 button {
+  width: 150px;
+  font-weight: 800;
+  font-size: 20px;
+  border-radius: 20px;
+  padding-bottom: 40px;
+}
+
+.navbar {
+  background-color: #1f2535;
+  height: 100px;
+  width: 70%;
+  margin-left: 15%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu {
+  width: 3%;
+  padding-right: 50px;
+}
+
+#options {
+  display: flex;
+
+  justify-content: space-between;
+  margin: 10% 20% 10% 20%;
+}
+
+.section {
+  flex-wrap: wrap;
+  margin-left: 10%;
+  text-align: left;
+  max-width: fit-content;
+  font-weight: 500;
+  font: rgb(32, 38, 54);
+}
+
+.section p {
+  font-size: 20px;
+}
